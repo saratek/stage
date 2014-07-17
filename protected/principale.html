@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="shortcut icon" href="../../assets/ico/favicon.ico"-->
+	<link rel="icon" type="image/gif" href="../../animated_favicon1.gif">
+	
+    <title>Formulaire</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"> </script>
+     <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+  </head>
+  <body>
+  
+	<div class="container">
+		<!-- première ligne : logo  -->	
+			<div class="row-fluid">
+				<div class="col-xs-12">
+					<div class="thumbnail"><img src="../images/logoAcceuil.jpg" alt="Logo"></div>
+				</div>
+			</div>
+		<!--  ******************FIN LOGO*********************** -->
+		
+		<!--  ******************TEST nav bar *********************** -->
+			<div class="col-xs-12">
+				<nav class="navbar navbar-inverse" role="navigation">	
+					<div class="navbar-header">
+						<a class="post1 navbar-brand" href="#" title="Quitter la session">Deconnexion</a>
+					</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<!--li><a href="#" title="Voir vos comptes">Reprospection</a></li-->
+						<li><a class="post3 navbar-brand" href="#" title="Voir vos comptes">Reprospection</a></li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<form class="navbar-form navbar-left" title="Rechercher dans l'actualité">
+							<div class="form-group">
+								<input id="search" class="entreprise form-control" placeholder="Search">
+							</div>
+						</form>
+					</ul>
+				</div>				
+				</nav>
+			</div>
+	<!--  ****************** fin test nav bar TEST*********************** -->
+			
+		<!-- DEXIEME ligne : TITRE  -->	
+			<div class="row">
+				<h1 class="text col-md-10"  style="padding-bottom:20px">
+						Sélectionnez les entreprises a prospecter  
+					<span class="glyphicon glyphicon-envelope"></span>
+					</br><small style="text-align:justify; text-justify:inter-word;">
+				</h1>			
+			</div>
+		
+		<!-- INFORMATIONS ***************************************** -->
+		<!-- troisieme ligne : TITRE  -->	
+		<div class="row-fluid">	
+			<div class="col-md-3" >
+				<h2 class="text-success"><b>Critères:</b></br><small>Ciblez votre recherche</small></h2>
+					<form role="form" >
+						<div class="form-group">
+							<label for="type">* Forme juridique : </br><small class="text-danger" id="forme-juridique-control"></small></label>
+							<select name="forme-juri" class="form-control" id="forme-juridique"><option value="0" selected="1">Forme Juridique</option><option value="SARL">SARL</option><option value="Société anonyme">Société anonyme</option><option value="Société à responsabilité limitée">Société à responsabilité limitée</option><option value="Société par actions simplifiée">SAS</option><option value="SA ">SA</option><option value="SASU">SASU</option></select>
+						</div>
+						<div class="form-group">
+							<label for="type">Departement : </br><small class="text-danger" id="forme-juridique-control"></small></label>
+							<select name="Departement" class="form-control" id="departement"><option value="0" selected="1">Departement</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option><option value="62">62</option><option value="63">63</option><option value="64">64</option><option value="65">65</option><option value="66">66</option><option value="67">67</option><option value="68">68</option><option value="69">69</option><option value="70">70</option><option value="71">71</option><option value="72">72</option><option value="73">73</option><option value="74">74</option><option value="75">75</option><option value="76">76</option><option value="77">77</option><option value="78">78</option><option value="79">79</option><option value="80">80</option><option value="81">81</option><option value="82">82</option><option value="83">83</option><option value="84">84</option><option value="85">85</option><option value="86">86</option><option value="87">87</option><option value="88">88</option><option value="89">89</option>D<option value="90">90</option><option value="91">91</option><option value="92">92</option><option value="93">93</option><option value="94">94</option><option value="95">95</option><option value="96">96</option><option value="97">97</option><option value="98">98</option><option value="99">99</option></select>
+						</div>
+						<div class="form-group">
+							<label for="annee">* Capital Social: </br><small class="text-danger" id="capital-social-control"></small></label>
+							<select name="creation_year" id="capital-social" class="form-control"><option value="0" selected="1">Capital Social</option><option value="500">500</option><option value="1000">1000</option><option value="10000">10.000</option><option value="20000">20.000</option><option value="30000">30.000</option><option value="40000">40.000</option><option value="50000">50.000</option><option value="60000">60.000</option><option value="100000">100.000</option><option value="200000">200.000</option><option value="500000">500.000</option><option value="1000000">1.000.000</option><option value="2000000">2.000.000</option><option value="5000000">5.000.000</option><option value="9000000">9.000.000</option></select>  
+						</div>
+						<div class="form-group">
+							<label for="type">Nombres d'employés : </br><small class="text-danger" id="nombre-employes-control"></small></label>
+							<select name="forme-juri" class="form-control" id="nombre-employes"><option value="0" selected="1">Nombre d'employés</option><option value="2">2</option><option value="5">5</option><option value="7">7</option><option value="10">10</option><option value="15">15</option><option value="20">20</option></select>
+						</div>
+						<div class="form-group">
+							<label for="type">Resultat Net : </br><small class="text-danger" id="resultat-net-control"></small></label>
+							<select name="forme-juri" class="form-control" id="resultat-net"><option value="0" selected="1">Resultat Net</option><option value="0">100</option><option value="200">200</option><option value="300">300</option><option value="1000">1000</option><option value="5000">5000</option><option value="10000">10.000</option><option value="20000">20.000</option><option value="50000">50.000</option><option value="100000">100.000</option><option value="1000000">1.000.000</option><option value="5000000">5.000.000</option><option value="9000000">9.000.000</option></select>
+						</div>
+						<div class="form-group">
+							<label for="type">Chiffre d'affaires : </br><small class="text-danger" id="chiffre-affaire-control"></small></label>
+							<select name="forme-juri" class="form-control" id="chiffre-affaire"><option value="0" selected="1">Chiffre d'affaire</option><option value="0">100</option><option value="200">200</option><option value="300">300</option><option value="1000">1000</option><option value="5000">5000</option><option value="10000">10.000</option><option value="20000">20.000</option><option value="50000">50.000</option><option value="100000">100.000</option><option value="1000000">1.000.000</option><option value="5000000">5.000.000</option><option value="9000000">9.000.000</option></select>
+						</div></select>
+						<!--/div-->
+						<div class="form-group">
+							<label for="type"> Evolution Resultat Net: </br><small class="text-danger" id="evolution-resultat-net-control"></small></label>
+							<select name="forme-juri" class="form-control" id="evolution-resultat-net"><option value="0" selected="1"> Evolution Resultat Net</option><option value="+">Hausse</option><option value="-">Sans importance</option></select>
+						</div>
+						<div class="form-group">
+							<label for="type"> Evolution Chiffre d'affaire: </br><small class="text-danger" id="evolution-chiffre-affaire-control"></small></label>
+							<select name="forme-juri" class="form-control" id="evolution-chiffre-affaire"><option value="0" selected="1"> Evolution Chiffre d'affaire</option><option value="+">Hausse</option><option value="-">Sans importance</option></select>
+						</div>
+					</form>
+					
+					<div class="container">
+						<div class="row">						
+							<div type="submit" class="btn btn-primary col-md-offset-0 col-md-2" id="btn-tester">Rechercher</div>
+						</div><!-- /row -->
+					</div><!-- /container -->
+			
+			</div>
+			<!-- BILAN ***************************************** -->
+			<div class="col-md-7 col-md-offset-1" >
+				<h2 class="text-success"><b>Résultat de la recherche:</b><br><small>   </br></small></h2>
+
+					<div class="panel" onmouseover="this.style.cursor='visible'">
+						<div class="panel-heading" title="Rafraichir">
+						<h4 class="raf_actu panel-titleBlack2">
+							 <span class="raf_actu glyphicon glyphicon-search"    ></span><span class="raf_actu"> Resultat de votre recherche : </span>	
+						</h4>
+						
+						<!--div class="panel-body1" style="overflow-x: visible;"-->
+							<div id='articles' class="row" style="background: white; margin-left: 10px; margin-bottom: 5px;"></div>
+						<!--/div-->
+						</div>
+					</div>
+					
+					<div class="container">
+						<div class="row">						
+							<div type="submit" class="btn btn-primary col-md-offset-0 col-md-2" id="btn-fax">Envoyer</div>
+						</div><!-- /row -->
+					</div><!-- /container -->
+					
+					<h2 class="text-success"><b>    </b><br><small>   </br></small></h2>
+					<div class="row-fluid">
+						<div class="col-xs-13">
+						<div class="thumbnail"><img src="../images/croissance.jpg" alt="croissance"></div>
+						</div>
+					</div>
+					
+			</div>
+		</div>
+	</div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/principale.js"> </script>
+        
+       
+
+  </body>
+</html>
